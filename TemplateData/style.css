@@ -16,3 +16,10 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+#bottom-dark {
+    background: #280509;
+    background: -moz-linear-gradient(45deg, #280509 0%, #7A061A 50%, #D8505D 100%);
+    background: -webkit-linear-gradient(45deg, #280509 0%, #7A061A 50%, #D8505D 100%);
+    background: linear-gradient(45deg, #280509 0%, #7A061A 50%, #D8505D 100%);
+}
