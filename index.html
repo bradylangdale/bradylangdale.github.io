@@ -1,23 +1,10 @@
-﻿<!DOCTYPE html>
-<html lang="en-us">
-  <head style="background-color: black">
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+<link rel="stylesheet" href="style.css">
+<body id="bottom-dark">
+    <button id="nbodyButton" class="float-left submit-button">Launch Nbody</button>
+
+    <script type="text/javascript">
+        document.getElementById("nbodyButton").onclick = function () {
+            location.href = "https://bradylangdale.github.io/Nbody/nbody.html";
+        };
     </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 800px; height: 400px"></div>
-      <div class="footer">
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">NBody Toy System</div>
-      </div>
-    </div>
-  </body>
-</html>
+</body>
