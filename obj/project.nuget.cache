@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P8lfiiG8+q6FpF28G2l33oVZz1N63OK4y5xw1h79tEwAj/qjL/KoyCLBJbRGHpgbKlE67tITfX+t561A+jeWYg==",
+  "dgSpecHash": "KQyXKgUG7z7Qk1BO/4P7cuRX/KidJCtHpSwPBSVvHfw9CUf9r5DwoOfno9r5A9LB/oGIIrYrj5mJrYKTsNLApw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brady\\Documents\\VS 2019 Projects\\BlazorTest\\MyWebsite.csproj",
+  "projectFilePath": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\MyWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brady\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\brady\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",

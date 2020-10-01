@@ -175,7 +175,6 @@ C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\Ra
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\MyWebsite.RazorTargetAssemblyInfo.cache
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\MyWebsite.csproj.CopyComplete
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\zL3Qyu9Br9n-x1l9YOHKfZxy_knHRVpkA4B0FsOLjEE=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\ycn-UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=.hash
@@ -226,13 +225,11 @@ C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\in
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\zNP4aHLW-rhi6gW72YV8xGy1rLa_RQZtwvWEpiwBSrs=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\oAIlpv09S-0jXnze744E1V88Oaw8Ql1x3Alw0hsVYdw=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash
-C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\UFOhBMPbYaDjHSViqfBYiFM00kNJCWfWpCstJrIYj30=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\M3eWuWTZn1Ita7SqSP9uCd_GnEQHQtvCU08ZeZNizhc=.hash
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\compressed\_framework\_bin\MyWebsite.dll.gz
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\compressed\_framework\_bin\netstandard.dll.gz
@@ -351,3 +348,6 @@ C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\st
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\staticwebassets\MyWebsite.StaticWebAssets.xml
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\MyWebsite.dll
 C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\MyWebsite.pdb
+C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\h_coYZFKzY3_jJHzvx1osOB8de-AqU68hyI0lVpSu8w=.hash
+C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\aS0OIXHUSYQnpBt8NoquVvSoTk8tdcg0xnSBgWmaxy4=.hash
+C:\Users\brady\Documents\VS 2019 Projects\BlazorTest\obj\Debug\netstandard2.1\integrity\OwQ6AtW_F6RNz1cekimE5lNZpPAaJYV6s1x2kRppQ_0=.hash

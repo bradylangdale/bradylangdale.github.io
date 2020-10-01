@@ -1,5 +1,5 @@
 ﻿<linker>
-  <assembly fullname="BlazorTest">
+  <assembly fullname="MyWebsite">
     <type fullname="*" required="true" />
   </assembly>
 </linker>

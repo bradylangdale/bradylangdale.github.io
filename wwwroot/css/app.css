@@ -25,6 +25,14 @@ app {
     flex-direction: column;
 }
 
+#dark-background {
+    background-color: #424c56;
+}
+
+#dark-text {
+    color: #fff;
+}
+
 .top-row {
     height: 3.5rem;
     display: flex;
@@ -41,7 +49,6 @@ app {
         background: -webkit-linear-gradient(top, #101220 37%,#424c56 100%);
         background: linear-gradient(to bottom, #101220 37%,#424c56 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101220', endColorstr='#424c56',GradientType=0 );
-        border-bottom: 1px solid #d6d5d5;
         justify-content: flex-end;
     }
 
