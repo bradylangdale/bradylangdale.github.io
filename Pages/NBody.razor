@@ -1,0 +1,29 @@
+﻿@page "/nbody"
+@inject IJSRuntime JSRuntime
+
+<div class="webgl-content" style="margin-left: auto; margin-right: auto;"></div>
+<div id="unityContainer" style="margin-left: auto; margin-right: auto;"></div>
+
+@code {
+    public object unityInstance = 0;
+
+    public void Start()
+    {
+        try
+        {
+            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "css/Games/Build/WebGL.json");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.StackTrace);
+        }
+
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        if (firstRender) Start();
+    }
+}
