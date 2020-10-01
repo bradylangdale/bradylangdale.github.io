@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -20,7 +20,7 @@ jobs:
 
       # Publish the site
       - name: Publish
-        run: dotnet publish BlazorTest.csproj -c Release -o public -p:GHPages=true
+        run: dotnet publish MyWebsite.csproj -c Release -o public -p:GHPages=true
 
       # Deploy the site
       - name: Deploy
