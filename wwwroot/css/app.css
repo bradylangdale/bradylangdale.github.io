@@ -7,6 +7,8 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url("images/gradient2.jpg");
+    background-size: auto;
 }
 
 a, .btn-link {
@@ -44,12 +46,7 @@ app {
 }
 
     .main .top-row {
-        background: #101220;
-        background: -moz-linear-gradient(top, #101220 37%, #424c56 100%);
-        background: -webkit-linear-gradient(top, #101220 37%,#424c56 100%);
-        background: linear-gradient(to bottom, #101220 37%,#424c56 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101220', endColorstr='#424c56',GradientType=0 );
-        justify-content: flex-end;
+        background-color: #fff2;
     }
 
         .main .top-row > a, .main .top-row .btn-link {
@@ -57,17 +54,21 @@ app {
             margin-left: 1.5rem;
         }
 
-.main .top-row a:first-child {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+        .main .top-row a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    .main .content {
+        color: #fff;
+    }
 
 .sidebar {
-    background: url("images/space.jpg") repeat fixed 0 0;
+    background-color: #fff2
 }
 
     .sidebar .top-row {
-        background-color: #fff2;
+   
     }
 
     .sidebar .navbar-brand {
@@ -154,6 +155,11 @@ app {
 }
 
 @media (max-width: 767.98px) {
+
+    .main .content {
+
+    }
+
     .main .top-row:not(.auth) {
         display: none;
     }

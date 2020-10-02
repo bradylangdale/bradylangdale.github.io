@@ -1,7 +1,6 @@
 ﻿@page "/nbody"
 @inject IJSRuntime JSRuntime
 
-<div class="webgl-content" style="margin-left: auto; margin-right: auto;"></div>
 <div id="unityContainer" style="margin-left: auto; margin-right: auto;"></div>
 
 @code {
@@ -11,7 +10,7 @@
     {
         try
         {
-            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "css/Games/Build/WebGL.json");
+            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/WebGL.json");
         }
         catch (Exception e)
         {
