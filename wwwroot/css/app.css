@@ -47,6 +47,7 @@ app {
 
     .main .top-row {
         background-color: #fff2;
+        box-shadow: 5px 5px 8px black;
     }
 
         .main .top-row > a, .main .top-row .btn-link {
@@ -64,7 +65,8 @@ app {
     }
 
 .sidebar {
-    background-color: #fff2
+    background-color: #fff2;
+    box-shadow: 5px 5px 8px black;
 }
 
     .sidebar .top-row {
