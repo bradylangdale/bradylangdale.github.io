@@ -1492,7 +1492,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.1.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.1.0",
       "PublishSPAforGitHubPages.Build >= 1.0.0",
-      "System.Net.Http.Json >= 3.1.0",
+      "System.Net.Http.Json >= 3.2.0",
       "Toolbelt.Web.CssClassInlineBuilder >= 1.1.1"
     ]
   },
@@ -1553,7 +1553,7 @@
           },
           "System.Net.Http.Json": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.2.0, )"
           },
           "Toolbelt.Web.CssClassInlineBuilder": {
             "target": "Package",
@@ -1606,16 +1606,6 @@
       "warningLevel": 1,
       "message": "MyWebsite depends on Microsoft.AspNetCore.Components.WebAssembly.DevServer (>= 3.1.0) but Microsoft.AspNetCore.Components.WebAssembly.DevServer 3.1.0 was not found. An approximate best match of Microsoft.AspNetCore.Components.WebAssembly.DevServer 3.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MyWebsite depends on System.Net.Http.Json (>= 3.1.0) but System.Net.Http.Json 3.1.0 was not found. An approximate best match of System.Net.Http.Json 3.2.0 was resolved.",
-      "libraryId": "System.Net.Http.Json",
       "targetGraphs": [
         ".NETStandard,Version=v2.1"
       ]

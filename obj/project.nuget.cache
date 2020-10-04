@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KQyXKgUG7z7Qk1BO/4P7cuRX/KidJCtHpSwPBSVvHfw9CUf9r5DwoOfno9r5A9LB/oGIIrYrj5mJrYKTsNLApw==",
+  "dgSpecHash": "VuBpOhACqs/znokEGEmSdrJom0nB1kOhX5xOLPCYV7kncmPBM5Zt78h56PHcUhmQnLKUtQdhK5CwgbhY9uzb5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\MyWebsite.csproj",
   "expectedPackageFiles": [
@@ -71,16 +71,6 @@
       "warningLevel": 1,
       "message": "MyWebsite depends on Microsoft.AspNetCore.Components.WebAssembly.DevServer (>= 3.1.0) but Microsoft.AspNetCore.Components.WebAssembly.DevServer 3.1.0 was not found. An approximate best match of Microsoft.AspNetCore.Components.WebAssembly.DevServer 3.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MyWebsite depends on System.Net.Http.Json (>= 3.1.0) but System.Net.Http.Json 3.1.0 was not found. An approximate best match of System.Net.Http.Json 3.2.0 was resolved.",
-      "libraryId": "System.Net.Http.Json",
       "targetGraphs": [
         ".NETStandard,Version=v2.1"
       ]
