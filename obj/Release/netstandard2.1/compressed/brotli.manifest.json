@@ -1,17 +1,17 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\sIx_D6IVevJT9lFeP0mktsO4nPkmzyxsP4qsFaS1DTo=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8aadqH204_3Wt4pbKLZHk0ht9CPRhffSs9Aq1_G6Kho=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yvZyAQ6XYgoZ4bYFF82eCNe90iWVnqsoT1zqaZjXxz8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SjJ3u6HIlPVe17xo1u8obwekIH7jHQskRvpOtT-RuF4=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\znOJ0KABHDl1ONgSJWGG-awW8nUnyUxYr2FolU_NpSg=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\b4SUUqNBgazSBVAByQFSecFZ-8wb59o_Sj6bZztoDco=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
     },
@@ -21,47 +21,47 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XrEzfAg75KfQNLfmA7cnDbVwAsHcTDwis7EWzSUJjpg=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\kwlja2GaTnjZ5Htq0PxqqOhHu-mqCr30IFwBR_p14ms=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ldz2iAd9WW-wef88od8pBxzwghaQTD44QHF5YdgY4bw=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ei-u2CQtzapqAN4uF7l2J9MlRjNz2Pd_boNtnENQFdM=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tvTrHl25B3yUAae5E85woOmZ2tva13Vz5RjLh1TC6_U=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8RlW8UdDrKUJgARmz8DdzRu8eMCpqwHOZuCorLTcxN0=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\H4LxVChgDVLNb4Bq4LxwcmXlAiZWpHC8EganrHo2OVw=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yjFUTLfQicfSkluIFjb628zdUmZ0i1LgAjNNDDxVNhQ=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\AVcjUM0l7pNXI5Xj16BmLgVSAnjO3_l01h-d_LsQ2pw=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tPSYROrylnVPf8iWtL014oN06i3uYUbLU4s0CANu8ls=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zLoQqa3aEXn9ZHHc-7s19GzO7AnmMJfZW4dn-wKAqm0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\YRfLZ1_XHmdXNSOShMAoKcO5d6KzipliZ7PfEZYbtEw=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BcyK-YoXx7N0LE5PR5vwkqgEcSQHtYt0MzFnH2l5tdg=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LLE4pmahGz1z3JoHjSaefRJkWFcXcpSHHbNRmuqR-3c=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\b2kOrxSNEC5fY44kj1yIiL8ls0f8oHUhQFznpupMK4E=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8ryTH8609TNHhNpsEzd-2R8t78SzcQlZdTJQZlgFOGw=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_Hn7Nhefo7R5crknw_2ez-tKxMjuiRkaC9-YnqHehDg=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\S99XBmxRZL0i2rIGLccbPFdFtPl561fuWzyqvLuoXZM=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
@@ -76,47 +76,47 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2YwmXaAeUsf_Xd-N7_3R8j1VaA2wsI5UtTEcgeWd6Q0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\OqLHKB68qAwFVJLatJuyEJDtw5SpRVH4xLaB7eVCtw4=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wjChoJHj0JChQsrBWYEyveDkyYxDsEie5cOVreHKn7U=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jXAjZy-MqiJhE_1OJwKFFAZGyV6RWTqwtdkzTsJSc_U=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\MyWebsite.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/MyWebsite.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9Vd2cvFARAhLDrZ91otrQoOJfqJBJRf6bucswtlan_k=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\MLZ4guTivTVjv3DvP7ja8Ox4_YX7jhySGSloejq-ltI=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\nl6kGCriVlEhXt1strxLyzwnXdOJ3VYOAm_WoQvK9eo=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ryiiruq0s4qx7UPnPeUZUxxyXfyWtmBiecRW2LxMDBg=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GTTlOjkIv7dpuQ_dY4BnLOjNbqWZuI-FkV-cSQzfxlU=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zDa1YaNowasYvBrC_1ZG4h5bYqoV22KE2dg1AdbTAS0=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\uwZMyC5jNIjLUsIxn44Y3ZXgoCPUf75XnTus2J6S4jk=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\y8vuBUn2JJbinvWAnxl57j06hG1jFAMp9TjYG2uIjlw=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\F4uv6dWr2AROjPA4mCOJhdrBgYNxl_IgVqHJxRlEKSs=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1Fw1m7EuYtuGGmlJIIeY6YGk3H9lQb8eBQUKqIukdb0=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\kRtK9lFTDje_uUVLcTXjUDC4EFAUogpj-rRGD9fMsXg=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ew-kyUt1qt4bYq2QNwomkNS2FxtbooFp7hmhwLWfIx8=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6VyPbJ-t65MoLKYsZgKiUjfyXaKrSOaDFtZE8xkFt6s=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\DoY8RV3o0zKRRht014V3sCkLSwLv8Ly6AdVLBWAFw8E=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
     },
@@ -126,7 +126,7 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Toolbelt.Web.CssClassInlineBuilder.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3KS7zcn0RhFn21YSJqxnqwl1ehzVWEIwAocZgvN7PL8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\FUtvuHjSMvqXuLEkYr0x8gWNhZ7UAKVUlwZoAWYmfu4=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
     },
@@ -151,7 +151,7 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\fNhNkYe8ECsArI0dsRxB0lsfJ2xtBGN_3XGUM2W3_AI=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\r50bYNSHHf8msyhaweeZiRroczsuQ9vZ89WkA1dCcR4=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
