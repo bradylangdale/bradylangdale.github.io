@@ -63,6 +63,12 @@ app {
 
     .main .content {
         color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 240px;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
     }
 
 .sidebar {
@@ -160,7 +166,12 @@ app {
 @media (max-width: 767.98px) {
 
     .main .content {
-
+        position:relative;
+        margin: auto;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
     }
 
     .main .top-row:not(.auth) {
