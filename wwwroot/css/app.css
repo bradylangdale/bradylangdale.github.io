@@ -7,8 +7,9 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-image: url("images/gradient2.jpg");
-    background-size: auto;
+    background-image: url("images/gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a, .btn-link {
