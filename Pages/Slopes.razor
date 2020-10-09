@@ -11,7 +11,7 @@
     {
         try
         {
-            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/Slopes.json");
+            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/builds.json");
         }
         catch (Exception e)
         {
