@@ -16,6 +16,7 @@
     {
         try
         {
+            JSRuntime.InvokeVoidAsync("cleanup");
             unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/Slopes.json");
         }
         catch (Exception e)

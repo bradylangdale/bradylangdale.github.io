@@ -10,6 +10,7 @@
     {
         try
         {
+            JSRuntime.InvokeVoidAsync("cleanup");
             unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/WebGL.json");
         }
         catch (Exception e)

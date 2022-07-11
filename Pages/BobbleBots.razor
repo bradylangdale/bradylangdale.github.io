@@ -1,0 +1,43 @@
+﻿@page "/bobblebots"
+@inject IJSRuntime JSRuntime
+
+<div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas" style="box-shadow: 0 0 10px black;"></canvas>
+    <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+        </div>
+    </div>
+    <div id="unity-warning"></div>
+    <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title"></div>
+    </div>
+</div>
+
+ @code
+ {
+    public object unityInstance = 0;
+
+    public void Start()
+    {
+        try
+        {
+            JSRuntime.InvokeVoidAsync("cleanup");
+            unityInstance = JSRuntime.InvokeAsync<object>("launchBobbleBots");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.StackTrace);
+        }
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        if (firstRender) Start();
+    }
+}
