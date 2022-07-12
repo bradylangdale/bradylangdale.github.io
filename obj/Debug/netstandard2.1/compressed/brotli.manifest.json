@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mI1VfyRfWAtqCBRzb87Y-1eBxedceUa9Ql2KaBXwkgA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EqTyEFQupjTgJ4kwbCr2xN-FLHF4i2VNgm9tS3VdsxA=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\MyWebsite.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/MyWebsite.dll.br"
     },
@@ -119,6 +119,91 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dxfTuT6ffPMmvuUUTfv7_bpLtOZZZHQdz77hjhy9qHw=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Data.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cs8pHUurDt0IqbB8YXPh560au3q3J-1wRL9jBddRVmE=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Newtonsoft.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GTsPRGrjGQl7qfqXzPIuIM_R4JXUlWWUUu11gdQV-9o=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\IronPython.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/IronPython.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\A4_6-yKbXS2vs7Vr1quzSX26JTW4l3sDC1EazeKyye0=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encoding.CodePages.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.CodePages.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BCNQuQIDEqyAAs5OZBfGJWZ2pzbzCJXf-rZmstivU1o=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.Lightweight.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.Lightweight.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.ILGeneration.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eK65lsViWm-PXxWIAVOS4XSYvEhkfTKGi2E9U6KYa6c=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Mono.Unix.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Unix.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v0s0Ppy3qT8E1XQTi3RHZy8befAwZq5Ww96hSRlmVb0=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.CodeDom.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.CodeDom.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6uWR_7S5zilLrdbkbULPePiiKW2jRv0GXL7ehr4GrYM=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Dynamic.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Dynamic.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fcFs4tngMajIhpc8fyd1kgZTd3ARcKF1ShoBN6RGVWg=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Scripting.Metadata.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Scripting.Metadata.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3I4aDFFRzc04_hSBc8GfdhdYh4Vabc78aS4lQ0d7JzA=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Scripting.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Scripting.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\AuHMzUSCfql-Uq3XmFRfJu1WE80kzSY-IcTJOnRA17E=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Configuration.ConfigurationManager.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Configuration.ConfigurationManager.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y4YoerBTT7H6WvxVXNVfZNc1wqXymv9JpcQDHz3pc4w=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.Cryptography.ProtectedData.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.Cryptography.ProtectedData.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\41TpUQyckiTriCG3V_aBcmQ1N7mU0abc1TlRA747tNs=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0OvOBSS97UIlu6GHKl7nXwJ_V7DF8vpq2OnE4mw3VFE=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.Permissions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.Permissions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NFuj-W4EdWMh3YIvij0lZeWdQJ7POvm-Tx3bcT2wyis=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.AccessControl.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.AccessControl.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v4LhihP26fP-dVajppSCZIrCVbkiALCJgAisyG2cmJQ=.hash",
@@ -256,9 +341,14 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\x8-2_UAUJKGHfxJDgZa26YL_8cRBRkq7qSuHUJKsdN0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rJEHcnYV0PgKFX__6x-8JcVApJ7KQJxUrejcfENcayU=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\MyWebsite.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/MyWebsite.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3fgiZvd5OLd5XvhaWkCLPSnoCn9GRAJXERrj_6PzLkQ=.hash",
+      "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Mono.Unix.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Unix.pdb.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
@@ -281,7 +371,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NRuSfXLN0clUe7J5QpJiCtaDMm05_IfENBQ8vJC_jOk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\umqo5PKoTir0mwCt6rvtl4YXE6QYwmVo-CDVXHDOo1o=.hash",
       "Source": "C:\\Users\\brady\\Documents\\GitHub\\bradylangdale.github.io\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

@@ -27,6 +27,37 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
+        var GLOBAL = {};
+        GLOBAL.DotNetReference = null;
+        GLOBAL.unityInstance = null;
+        GLOBAL.SetDotnetReference = function (pDotNetReference) {
+            GLOBAL.DotNetReference = pDotNetReference;
+        };
+
+        // Function which receives a message from Unity
+        function receiveMessageFromUnity(bot, txt) {
+            // invoke C# function
+            sendMessageToUnity(
+                bot,
+                GLOBAL.DotNetReference.invokeMethod(
+                    "ReceiveMessageFromUnity",
+                    txt
+                )
+            );
+        }
+
+        // Function which sends the message to Unity
+        function sendMessageToUnity(bot, txt) {
+
+            // Send message to the Unity scene
+            // Params: "Target object in the scene", "Function name", "Parameters"
+            GLOBAL.unityInstance.SendMessage(
+                bot,
+                "ReceiveMessageFromPage",
+                txt
+            );
+        }
+
         window.launchBobbleBots = () => {
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -87,12 +118,14 @@
                 createUnityInstance(canvas, config, (progress) => {
                     progressBarFull.style.width = 100 * progress + "%";
                 }).then((unityInstance) => {
+                    GLOBAL.unityInstance = unityInstance;
                     loadingBar.style.display = "none";
                     fullscreenButton.onclick = () => {
                         unityInstance.SetFullscreen(1);
                     };
                 }).catch((message) => {
-                    alert(message);
+                    //alert(message);
+                    //GLOBAL.unityInstance = null;
                 });
             };
             document.body.appendChild(script);
