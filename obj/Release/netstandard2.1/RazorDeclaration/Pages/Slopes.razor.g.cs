@@ -84,7 +84,7 @@ using MyWebsite.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "C:\Users\brady\Documents\GitHub\bradylangdale.github.io\Pages\Slopes.razor"
+#line 12 "C:\Users\brady\Documents\GitHub\bradylangdale.github.io\Pages\Slopes.razor"
   
     public object unityInstance = 0;
 
@@ -92,12 +92,14 @@ using MyWebsite.Shared;
     {
         try
         {
-            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Unity 2020/Build/Slopes.json");
+            JSRuntime.InvokeVoidAsync("cleanup");
+            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/Slopes.json");
         }
         catch (Exception e)
         {
             Console.WriteLine(e.StackTrace);
         }
+
     }
 
     protected override void OnAfterRender(bool firstRender)

@@ -184,19 +184,19 @@
 
     private BotScope UpdateBotScope(BotScope bot)
     {
-        if (bot.name == "Bot1" && !scope2.busy)
+        if (bot.name == "Bot1")
         {
             scope1.centerVector = bot.center;
             scope1.centerDistance = bot.mag;
             scope1.centerDirection = bot.ang;
             scope1.canShoot = bot.canShoot;
             scope1.shoot = bot.shoot;
-            scope1.output = bot.output;
+            scope1.output = new List<string>();
             scope1.radar = bot.radar;
 
             try
             {
-                bool result = botScript1.update();
+                botScript1.update();
             }
             catch (Exception e) { }
 
@@ -206,19 +206,19 @@
             bot.output = scope1.output;
         }
         else
-        if (bot.name == "Bot2" && !scope2.busy)
+        if (bot.name == "Bot2")
         {
             scope2.centerVector = bot.center;
             scope2.centerDistance = bot.mag;
             scope2.centerDirection = bot.ang;
             scope2.canShoot = bot.canShoot;
             scope2.shoot = bot.shoot;
-            scope2.output = bot.output;
+            scope2.output = new List<string>();
             scope2.radar = bot.radar;
 
             try
             {
-                bool result = botScript2.update();
+                botScript2.update();
             }
             catch (Exception e) { }
 

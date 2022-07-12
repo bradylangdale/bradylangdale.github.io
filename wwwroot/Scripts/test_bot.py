@@ -1,4 +1,4 @@
-print("Hello world")
+print("Python Script Loaded!")
 centerVector = [0, 0, 0]
 centerDistance = 0
 centerDirection = 0
@@ -8,7 +8,6 @@ canShoot = True
 shoot = False
 radar = []
 output = []
-busy = False
 
 
 def getCenterVector():
@@ -66,7 +65,6 @@ class Bot:
         self.count = 0
 
     def update(self):
-	busy = True
         if not self.reverse:
             if getCenterDistance() > 21.5:
                 if getCenterDirection() > 0:
@@ -83,8 +81,6 @@ class Bot:
             self.count = 0
             self.reverse = False
             setThrottleValue(1)
-	busy = False
-	return True
 
     def checkRadar(self):
         for data in radar:

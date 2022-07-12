@@ -84,20 +84,22 @@ using MyWebsite.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 8 "C:\Users\brady\Documents\GitHub\bradylangdale.github.io\Pages\NBody.razor"
-  
+#line 6 "C:\Users\brady\Documents\GitHub\bradylangdale.github.io\Pages\NBody.razor"
+       
     public object unityInstance = 0;
 
     public void Start()
     {
         try
         {
-            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Unity 2020/Build/WebGL.json");
+            JSRuntime.InvokeVoidAsync("cleanup");
+            unityInstance = JSRuntime.InvokeAsync<object>("UnityLoader.instantiate", "unityContainer", "Games/Build/WebGL.json");
         }
         catch (Exception e)
         {
             Console.WriteLine(e.StackTrace);
         }
+
     }
 
     protected override void OnAfterRender(bool firstRender)
