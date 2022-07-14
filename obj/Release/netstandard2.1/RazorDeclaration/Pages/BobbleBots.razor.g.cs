@@ -261,7 +261,6 @@ using IronPython.Hosting;
         scope2.shoot = false;
         scope2.output = new List<string>();
         scope2.radar = new List<RadarData>();
-        scope2.busy = false;
     }
 
     private BotScope UpdateBotScope(BotScope bot)
@@ -273,7 +272,7 @@ using IronPython.Hosting;
             scope1.centerDirection = bot.ang;
             scope1.canShoot = bot.canShoot;
             scope1.shoot = bot.shoot;
-            scope1.output = new List<string>();
+            scope1.output.Clear();
             scope1.radar = bot.radar;
 
             try
@@ -295,7 +294,7 @@ using IronPython.Hosting;
             scope2.centerDirection = bot.ang;
             scope2.canShoot = bot.canShoot;
             scope2.shoot = bot.shoot;
-            scope2.output = new List<string>();
+            scope2.output.Clear();
             scope2.radar = bot.radar;
 
             try
@@ -320,6 +319,58 @@ using IronPython.Hosting;
     {
         BotScope bot = JsonConvert.DeserializeObject<BotScope>(txt);
         return JsonConvert.SerializeObject(UpdateBotScope(bot));
+    }
+
+    [JSInvokable("LoadPythonScript")]
+    public async void LoadPythonScript(string bot, string url)
+    {
+        var response = await Http.GetAsync(url);
+        string script = await response.Content.ReadAsStringAsync();
+
+        Console.WriteLine(script);
+
+        if (bot == "Bot1")
+        {
+            engine1 = Python.CreateEngine();
+            scope1 = engine1.CreateScope();
+            engine1.CreateScriptSourceFromString(script).Execute(scope1);
+
+            Float2 center;
+            center.x = 0;
+            center.y = 0;
+            scope1.centerVector = center;
+            scope1.centerDistance = 0;
+            scope1.centerDirection = 0;
+            scope1.throttleValue = 0;
+            scope1.rotateValue = 0;
+            scope1.canShoot = true;
+            scope1.shoot = false;
+            scope1.output = new List<string>();
+            scope1.radar = new List<RadarData>();
+
+            botScript1 = scope1.Bot();
+        }
+        else if (bot == "Bot2")
+        {
+            engine2 = Python.CreateEngine();
+            scope2 = engine2.CreateScope();
+            engine2.CreateScriptSourceFromString(script).Execute(scope2);
+
+            Float2 center;
+            center.x = 0;
+            center.y = 0;
+            scope2.centerVector = center;
+            scope2.centerDistance = 0.0f;
+            scope2.centerDirection = 0.0f;
+            scope2.throttleValue = 0.0f;
+            scope2.rotateValue = 0.0f;
+            scope2.canShoot = true;
+            scope2.shoot = false;
+            scope2.output = new List<string>();
+            scope2.radar = new List<RadarData>();
+
+            botScript2 = scope2.Bot();
+        }
     }
 
 #line default

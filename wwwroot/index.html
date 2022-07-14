@@ -58,6 +58,11 @@
             );
         }
 
+        function loadPythonScript(bot, url)
+        {
+            GLOBAL.DotNetReference.invokeMethod("LoadPythonScript", bot, url);
+        }
+
         window.launchBobbleBots = () => {
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
